@@ -25,3 +25,13 @@
 
  ![23](image/23.png)
 
+## 猪猪chat
+
+### #从本地使用 ssh 连接 studio 端口
+### #将下方端口号 38374 替换成自己的端口号
+- ssh -CNg -L 6006:127.0.0.1:6006 root@ssh.intern-ai.org.cn -p 38374
+
+ ![24](image/24.png)
+
+
+ ![25](image/25.png)
