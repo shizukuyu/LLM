@@ -75,18 +75,27 @@
 ![590](image/590.png)
 
 #### 2.4 使用LMDeploy与模型对话
-![56](image/56.png)
+
+model config:
+![592](image/592.png)
+
+
+2-3min，显著快了，而且讲故事还有一些搞笑成分
+
+![591](image/591.png)
 
 ### 3.LMDeploy模型量化(lite)
-
-![56](image/56.png)
 
 #### 3.1 设置最大KV Cache缓存大小
 模型在运行时，占用的显存可大致分为三部分：模型参数本身占用的显存、KV Cache占用的显存，以及中间运算结果占用的显存
 
 - 首先保持不加该参数（默认0.8），运行1.8B模型。
 
+![593](image/593.png)
+
 - 改变--cache-max-entry-count参数，设为0.5。
+
+
 
 - --cache-max-entry-count参数设置为0.01，约等于禁止KV Cache占用显存。
 #### 3.2 使用W4A16量化
