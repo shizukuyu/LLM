@@ -104,17 +104,30 @@ model config:
 
 #### 3.2 使用W4A16量化
 - 模型量化后，新的HF模型被保存到internlm2-chat-1_8b-4bit目录
-
+![596](image/596.png)
 
 - KV Cache比例再次调为0.01，查看显存占用情况
+![597](image/597.png)
 
 ### 4.LMDeploy服务(serve)
 #### 4.1 启动API服务器
 
 - 本地需要做一下ssh转发才能直接访问
+![598](image/598.png)
+![599](image/599.png)
 
 #### 4.2 命令行客户端连接API服务器
+
+![5990](image/5990.png)
+
 #### 4.3 网页客户端连接API服务器
+
+![5991](image/5991.png)
+
+- 访问地址http://127.0.0.1:6006
+
+![5992](image/5992.png)
+
 
 ### 5.Python代码集成
 #### 5.1 Python代码集成运行1.8B模型
