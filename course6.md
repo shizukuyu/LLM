@@ -47,6 +47,15 @@ Lagent简介
 
 
 ## AgentLego
+### 直接使用部分
 
 ![65](image/65.png)
 ![66](image/66.png)
+
+### AgentLego WebUI 使用
+
+![67](image/67.png)
+
+### AgentLego 实现自定义工具
+
+![68](image/68.png)
