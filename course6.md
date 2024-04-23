@@ -1,4 +1,4 @@
-## Agent 理论及 Lagent & AgentLego 开源产品介绍
+## Agent 理论及 Lagent & AgentLego 
 
 - **Agent 理论**: 介绍了智能体（Agent）的基本概念和作用，以及在大型语言模型（LLM）中的应用。
 
@@ -38,3 +38,10 @@ Lagent简介
 - **实战目标**: 介绍AgentLego中的MagicMaker工具，用于生成图像内容。
 - **操作步骤**: 通过实战演示了如何使用MagicMaker工具创建文生图，并展示了生成效果。
 
+# 作业
+
+## Lagent Web Demo
+
+
+
+## AgentLego
