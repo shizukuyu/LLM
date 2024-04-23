@@ -133,6 +133,7 @@ model config:
 #### 5.1 Python代码集成运行1.8B模型
 
 ![5993](image/5993.png)
+![5994](image/5994.png)
 
 <!-- ### 6.拓展部分
 #### 6.1 使用LMDeploy运行视觉多模态大模型llava
