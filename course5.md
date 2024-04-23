@@ -77,10 +77,10 @@
 #### 2.4 使用LMDeploy与模型对话
 
 model config:
+
 ![592](image/592.png)
 
-
-2-3min，显著快了，而且讲故事还有一些搞笑成分
+运行时间2-3min，相比Transformer库显著快了，而且讲故事还有一些搞笑成分
 
 ![591](image/591.png)
 
@@ -95,11 +95,16 @@ model config:
 
 - 改变--cache-max-entry-count参数，设为0.5。
 
+![594](image/594.png)
+
+- --cache-max-entry-count参数设置为0.01，约等于禁止KV Cache占用显存。 推理的时候没有很明显的感受到变慢
+
+![595](image/595.png)
 
 
-- --cache-max-entry-count参数设置为0.01，约等于禁止KV Cache占用显存。
 #### 3.2 使用W4A16量化
 - 模型量化后，新的HF模型被保存到internlm2-chat-1_8b-4bit目录
+
 
 - KV Cache比例再次调为0.01，查看显存占用情况
 
