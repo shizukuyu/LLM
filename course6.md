@@ -43,6 +43,10 @@ Lagent简介
 ## Lagent Web Demo
 ### 启动并使用 Lagent Web Demo
 
+![64](image/64.png)
 
 
 ## AgentLego
+
+![65](image/65.png)
+![66](image/66.png)
