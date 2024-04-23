@@ -131,11 +131,11 @@ model config:
 
 ### 5.Python代码集成
 #### 5.1 Python代码集成运行1.8B模型
-#### 5.2 向TurboMind后端传递参数
+
+![5993](image/5993.png)
 
 ### 6.拓展部分
 #### 6.1 使用LMDeploy运行视觉多模态大模型llava
 
-通过ssh转发一下7860端口。
 
-#### 6.2 使用LMDeploy运行第三方大模型
+通过ssh转发一下7860端口。
